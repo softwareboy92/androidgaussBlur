@@ -1,0 +1,3 @@
+ninja: Entering directory `/Users/albert/Documents/CJNI/app/.cxx/cmake/debug/x86_64'
+[1/2] Building CXX object CMakeFiles/native-lib.dir/native-lib.cpp.o
+[2/2] Linking CXX shared library /Users/albert/Documents/CJNI/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so

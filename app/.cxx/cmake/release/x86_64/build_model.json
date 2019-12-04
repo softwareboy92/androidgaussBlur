@@ -1,0 +1,72 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/albert/Documents/CJNI",
+      "sdkFolder": "/Users/albert/Documents/basesoftware/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/albert/Documents/CJNI/app/build/intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/Users/albert/Documents/CJNI/app",
+      "makeFile": "/Users/albert/Documents/CJNI/app/src/main/cpp/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/Users/albert/Documents/CJNI/.cxx",
+      "cxxFolder": "/Users/albert/Documents/CJNI/app/.cxx",
+      "ndkFolder": "/Users/albert/Documents/basesoftware/sdk/ndk-bundle",
+      "ndkVersion": "20.1.5948944",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "release",
+    "soFolder": "/Users/albert/Documents/CJNI/app/build/intermediates/cmake/release/lib",
+    "objFolder": "/Users/albert/Documents/CJNI/app/build/intermediates/cmake/release/obj",
+    "jsonFolder": "/Users/albert/Documents/CJNI/app/.cxx/cmake/release",
+    "gradleBuildOutputFolder": "/Users/albert/Documents/CJNI/app/.cxx/cxx/release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "X86_64",
+  "abiPlatformVersion": 19,
+  "cxxBuildFolder": "/Users/albert/Documents/CJNI/app/.cxx/cmake/release/x86_64",
+  "jsonFile": "/Users/albert/Documents/CJNI/app/.cxx/cmake/release/x86_64/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/albert/Documents/CJNI/app/.cxx/cxx/release/x86_64",
+  "objFolder": "/Users/albert/Documents/CJNI/app/build/intermediates/cmake/release/obj/x86_64",
+  "buildCommandFile": "/Users/albert/Documents/CJNI/app/.cxx/cmake/release/x86_64/build_command.txt",
+  "buildOutputFile": "/Users/albert/Documents/CJNI/app/.cxx/cmake/release/x86_64/build_output.txt",
+  "modelOutputFile": "/Users/albert/Documents/CJNI/app/.cxx/cmake/release/x86_64/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/Users/albert/Documents/CJNI/app/.cxx/cxx/release/x86_64/CMakeLists.txt",
+    "toolchainWrapperFile": "/Users/albert/Documents/CJNI/app/.cxx/cxx/release/x86_64/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/Users/albert/Documents/CJNI/app/.cxx/cxx/release/x86_64/build_generation_state.json",
+    "cacheKeyFile": "/Users/albert/Documents/CJNI/app/.cxx/cxx/release/x86_64/compiler_cache_key.json",
+    "compilerCacheUseFile": "/Users/albert/Documents/CJNI/app/.cxx/cxx/release/x86_64/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/Users/albert/Documents/CJNI/app/.cxx/cxx/release/x86_64/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/Users/albert/Documents/CJNI/app/.cxx/cxx/release/x86_64/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/Users/albert/Documents/CJNI/app/.cxx/cmake/release/x86_64/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/albert/Documents/CJNI/app/.cxx/cmake/release/x86_64/compile_commands.json"
+}

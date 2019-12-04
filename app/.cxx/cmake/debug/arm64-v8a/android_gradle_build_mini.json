@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "/Users/albert/Documents/basesoftware/sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/albert/Documents/basesoftware/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/Users/albert/Documents/CJNI/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/albert/Documents/CJNI/app/.cxx/cmake/debug/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/albert/Documents/CJNI/app/.cxx/cmake/debug/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Debug-arm64-v8a": {
+      "artifactName": "native-lib",
+      "buildCommand": "/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/albert/Documents/CJNI/app/.cxx/cmake/debug/arm64-v8a\" native-lib",
+      "abi": "arm64-v8a",
+      "output": "/Users/albert/Documents/CJNI/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so"
+    }
+  }
+}
