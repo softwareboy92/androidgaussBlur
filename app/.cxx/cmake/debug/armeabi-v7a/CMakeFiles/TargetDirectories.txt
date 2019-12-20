@@ -1,3 +1,3 @@
-/Users/albert/Documents/CJNI/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
-/Users/albert/Documents/CJNI/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
-/Users/albert/Documents/CJNI/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/native-lib.dir
+/Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/native-lib.dir

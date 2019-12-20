@@ -1,2 +1,2 @@
-ninja: Entering directory `/Users/albert/Documents/CJNI/app/.cxx/cmake/debug/armeabi-v7a'
+ninja: Entering directory `/Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/.cxx/cmake/debug/armeabi-v7a'
 ninja: no work to do.

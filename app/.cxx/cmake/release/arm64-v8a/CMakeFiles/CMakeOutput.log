@@ -1,19 +1,19 @@
 The target system is: Android - 1 - aarch64
 The host system is: Darwin - 19.0.0 - x86_64
 Determining if the C compiler works passed with the following output:
-Change Dir: /Users/albert/Documents/CJNI/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_86f24"
-[1/2] Building C object CMakeFiles/cmTC_86f24.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_86f24
+Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_ee2bd"
+[1/2] Building C object CMakeFiles/cmTC_ee2bd.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_ee2bd
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/albert/Documents/CJNI/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_7d31b"
-[1/2] Building C object CMakeFiles/cmTC_7d31b.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_7d31b
+Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_6e7ee"
+[1/2] Building C object CMakeFiles/cmTC_6e7ee.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_6e7ee
 Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)
 Target: aarch64-none-linux-android21
 Thread model: posix
@@ -22,16 +22,16 @@ Found candidate GCC installation: /Users/albert/Documents/basesoftware/sdk/ndk-b
 Selected GCC installation: /Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_7d31b /Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/aarch64 -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_7d31b.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o
+ "/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_6e7ee /Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/aarch64 -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_6e7ee.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(aarch64-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/albert/Documents/CJNI/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_7d31b"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_7d31b.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_7d31b]
+  ignore line: [Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_6e7ee"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_6e7ee.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_6e7ee]
   ignore line: [Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)]
   ignore line: [Target: aarch64-none-linux-android21]
   ignore line: [Thread model: posix]
@@ -42,7 +42,7 @@ Parsed C implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_7d31b /Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/aarch64 -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_7d31b.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
+  link line: [ "/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_6e7ee /Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/aarch64 -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_6e7ee.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
     arg [/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld] ==> ignore
     arg [--sysroot=/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
     arg [-pie] ==> ignore
@@ -58,7 +58,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker64] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_7d31b] ==> ignore
+    arg [cmTC_6e7ee] ==> ignore
     arg [/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o] ==> ignore
     arg [-L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/aarch64] ==> dir [/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/aarch64]
     arg [-L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x] ==> dir [/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
@@ -77,7 +77,7 @@ Parsed C implicit link information from above output:
     arg [--no-undefined] ==> ignore
     arg [-znoexecstack] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_7d31b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_6e7ee.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
     arg [-lc] ==> lib [c]
@@ -99,11 +99,11 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /Users/albert/Documents/CJNI/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_346ef"
-[1/2] Building C object CMakeFiles/cmTC_346ef.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_346ef
+Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_45e73"
+[1/2] Building C object CMakeFiles/cmTC_45e73.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_45e73
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -113,11 +113,11 @@ Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /Users/albert/Documents/CJNI/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_f81b6"
-[1/2] Building C object CMakeFiles/cmTC_f81b6.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_f81b6
+Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_b4aa0"
+[1/2] Building C object CMakeFiles/cmTC_b4aa0.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_b4aa0
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -127,11 +127,11 @@ Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /Users/albert/Documents/CJNI/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_78863"
-[1/2] Building C object CMakeFiles/cmTC_78863.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_78863
+Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_00410"
+[1/2] Building C object CMakeFiles/cmTC_00410.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_00410
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -139,19 +139,19 @@ Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /Users/albert/Documents/CJNI/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_4c05d"
-[1/2] Building CXX object CMakeFiles/cmTC_4c05d.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_4c05d
+Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_bdd28"
+[1/2] Building CXX object CMakeFiles/cmTC_bdd28.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_bdd28
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Users/albert/Documents/CJNI/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_631e8"
-[1/2] Building CXX object CMakeFiles/cmTC_631e8.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_631e8
+Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_d523c"
+[1/2] Building CXX object CMakeFiles/cmTC_d523c.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_d523c
 Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)
 Target: aarch64-none-linux-android21
 Thread model: posix
@@ -160,16 +160,16 @@ Found candidate GCC installation: /Users/albert/Documents/basesoftware/sdk/ndk-b
 Selected GCC installation: /Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_631e8 /Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/aarch64 -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_631e8.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl /Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o
+ "/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_d523c /Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/aarch64 -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_d523c.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl /Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(aarch64-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/albert/Documents/CJNI/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_631e8"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_631e8.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_631e8]
+  ignore line: [Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_d523c"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_d523c.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_d523c]
   ignore line: [Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)]
   ignore line: [Target: aarch64-none-linux-android21]
   ignore line: [Thread model: posix]
@@ -180,7 +180,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_631e8 /Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/aarch64 -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_631e8.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl /Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
+  link line: [ "/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_d523c /Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/aarch64 -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_d523c.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl /Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
     arg [/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld] ==> ignore
     arg [--sysroot=/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
     arg [-pie] ==> ignore
@@ -196,7 +196,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker64] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_631e8] ==> ignore
+    arg [cmTC_d523c] ==> ignore
     arg [/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o] ==> ignore
     arg [-L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/aarch64] ==> dir [/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.7/lib/linux/aarch64]
     arg [-L/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x] ==> dir [/Users/albert/Documents/basesoftware/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
@@ -215,7 +215,7 @@ Parsed CXX implicit link information from above output:
     arg [--no-undefined] ==> ignore
     arg [-znoexecstack] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_631e8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_d523c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-Bstatic] ==> ignore
     arg [-lc++] ==> lib [c++]
     arg [-Bdynamic] ==> ignore
@@ -241,11 +241,11 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /Users/albert/Documents/CJNI/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_ebb01"
-[1/2] Building CXX object CMakeFiles/cmTC_ebb01.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_ebb01
+Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_522bc"
+[1/2] Building CXX object CMakeFiles/cmTC_522bc.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_522bc
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -308,11 +308,11 @@ Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /Users/albert/Documents/CJNI/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_1e7f4"
-[1/2] Building CXX object CMakeFiles/cmTC_1e7f4.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_1e7f4
+Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_7adc6"
+[1/2] Building CXX object CMakeFiles/cmTC_7adc6.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_7adc6
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -375,11 +375,11 @@ Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /Users/albert/Documents/CJNI/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_39046"
-[1/2] Building CXX object CMakeFiles/cmTC_39046.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_39046
+Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_2ccce"
+[1/2] Building CXX object CMakeFiles/cmTC_2ccce.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_2ccce
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -442,11 +442,11 @@ Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /Users/albert/Documents/CJNI/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_9c852"
-[1/2] Building CXX object CMakeFiles/cmTC_9c852.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_9c852
+Run Build Command:"/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_9b041"
+[1/2] Building CXX object CMakeFiles/cmTC_9b041.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_9b041
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

@@ -1,19 +1,19 @@
 {
   "buildFiles": [
-    "/Users/albert/Documents/basesoftware/sdk/ndk-bundle/build/cmake/platforms.cmake",
     "/Users/albert/Documents/basesoftware/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
-    "/Users/albert/Documents/CJNI/app/src/main/cpp/CMakeLists.txt"
+    "/Users/albert/Documents/basesoftware/sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/src/main/cpp/CMakeLists.txt"
   ],
   "cleanCommands": [
-    "/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/albert/Documents/CJNI/app/.cxx/cmake/release/x86_64\" clean"
+    "/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/.cxx/cmake/release/x86_64\" clean"
   ],
-  "buildTargetsCommand": "/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/albert/Documents/CJNI/app/.cxx/cmake/release/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/.cxx/cmake/release/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "native-lib-Release-x86_64": {
       "artifactName": "native-lib",
-      "buildCommand": "/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/albert/Documents/CJNI/app/.cxx/cmake/release/x86_64\" native-lib",
+      "buildCommand": "/Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/.cxx/cmake/release/x86_64\" native-lib",
       "abi": "x86_64",
-      "output": "/Users/albert/Documents/CJNI/app/build/intermediates/cmake/release/obj/x86_64/libnative-lib.so"
+      "output": "/Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/build/intermediates/cmake/release/obj/x86_64/libnative-lib.so"
     }
   }
 }
