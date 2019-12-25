@@ -19,6 +19,7 @@ public class OpenGlRenderer implements GLSurfaceView.Renderer {
 
     private Square square;
     private Context context;
+    private float red = 1f;
 
     public OpenGlRenderer(Context context) {
         this.context = context;
@@ -26,7 +27,8 @@ public class OpenGlRenderer implements GLSurfaceView.Renderer {
 
     @Override
     public void onSurfaceCreated(GL10 gl, EGLConfig config) {
-        square = new Square(context);
+//        square = new Square(context);
+        GLES20.glClear(GLES20.GL_COLOR_BUFFER_BIT);
     }
 
     @Override
@@ -36,8 +38,8 @@ public class OpenGlRenderer implements GLSurfaceView.Renderer {
 
     @Override
     public void onDrawFrame(GL10 gl) {
-        GLES20.glClearColor(1f,0,0,1f);
+        GLES20.glClearColor(red,0,0,1f);
         GLES20.glClear(GLES20.GL_COLOR_BUFFER_BIT);
-        square.draw();
+//        square.draw();
     }
 }

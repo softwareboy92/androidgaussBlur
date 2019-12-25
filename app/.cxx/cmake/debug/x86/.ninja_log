@@ -1,0 +1,5 @@
+# ninja log v5
+2	4868	1577260499	CMakeFiles/native-lib.dir/native-lib.cpp.o	4113d80eb8eb5a4a
+4870	5467	1577260499	/Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so	13985a18c2934398
+2	2532	1577261011	CMakeFiles/native-lib.dir/native-lib.cpp.o	4113d80eb8eb5a4a
+2533	2723	1577261011	/Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so	13985a18c2934398

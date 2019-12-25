@@ -8,14 +8,6 @@
 
 void gaussBlur(int *pInt, uint32_t width, uint32_t height, int i);
 
-extern "C" JNIEXPORT jstring JNICALL
-Java_com_cainiao_cjni_MainActivity_stringFromJNI(
-        JNIEnv *env,
-        jobject /* this */) {
-    std::string hello = "Hello from C++";
-
-    return env->NewStringUTF(hello.c_str());
-}
 
 void gaussBlur(int *pix, uint32_t w, uint32_t h, int radius) {
 
@@ -90,15 +82,23 @@ void gaussBlur(int *pix, uint32_t w, uint32_t h, int radius) {
 
 }
 
-
 extern "C"
-JNIEXPORT void JNICALL
-Java_com_cainiao_cjni_MainActivity_getImageBitmap(
-        JNIEnv *env,
-        jobject thiz,
-        jobject bitmap,
-        jint level) {
+JNIEXPORT jint JNICALL
+Java_com_cainiao_cjni_activity_MainActivity_add(JNIEnv *env, jobject thiz, jint a, jint b) {
+    // TODO: implement add()
+    jint sum = a + b;
+    return sum;
+}extern "C"
+JNIEXPORT jstring JNICALL
+Java_com_cainiao_cjni_activity_MainActivity_stringFromJNI(JNIEnv *env, jobject thiz) {
+    // TODO: implement stringFromJNI()
+    std::string hello = "Hello from C++";
 
+    return env->NewStringUTF(hello.c_str());
+}extern "C"
+JNIEXPORT void JNICALL
+Java_com_cainiao_cjni_activity_MainActivity_getImageBitmap(JNIEnv *env, jobject thiz,
+                                                           jobject bitmap, jint level) {
     AndroidBitmapInfo info = {0};//初始化BitmapInfo结构体
 
     int *data = NULL;
@@ -110,4 +110,21 @@ Java_com_cainiao_cjni_MainActivity_getImageBitmap(
     gaussBlur(data, info.width, info.height, 80);
 
     AndroidBitmap_unlockPixels(env, bitmap);//解锁
+}extern "C"
+JNIEXPORT jint JNICALL
+Java_com_cainiao_cjni_activity_MainActivity_intArraySum(JNIEnv *env, jobject instance,
+                                                        jintArray intArray_, jint num) {
+    // TODO: implement intArraySum()
+    jint *intArray;
+    int sum = 0;
+    jint buf[num];
+    // 通过 GetIntArrayRegion 方法来获取数组内容
+    env->GetIntArrayRegion(intArray_, 0, num, buf);
+    sum = 0;
+    for (int i = 0; i < num; ++i) {
+        sum += buf[i];
+    }
+    // 使用完了别忘了释放内存
+    env->ReleaseIntArrayElements(intArray_, intArray, 0);
+    return sum;
 }

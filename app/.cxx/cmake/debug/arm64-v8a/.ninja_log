@@ -1,3 +1,9 @@
 # ninja log v5
 0	882	1575513866	CMakeFiles/native-lib.dir/native-lib.cpp.o	3c2bc9937c6e56e2
 883	1063	1575513867	/Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	3d3073b7fd99047b
+17	2968	1577262970	CMakeFiles/native-lib.dir/native-lib.cpp.o	3c2bc9937c6e56e2
+2968	3266	1577262971	/Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	3d3073b7fd99047b
+6	5365	1577271121	CMakeFiles/native-lib.dir/native-lib.cpp.o	3c2bc9937c6e56e2
+5366	5669	1577271122	/Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	3d3073b7fd99047b
+1	1149	1577271315	CMakeFiles/native-lib.dir/native-lib.cpp.o	3c2bc9937c6e56e2
+1149	1394	1577271315	/Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	3d3073b7fd99047b

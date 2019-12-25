@@ -1,0 +1,7 @@
+Executable : /Users/albert/Documents/basesoftware/sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/Users/albert/Documents/android_work/gaussBlur/androidgaussBlur/app/.cxx/cmake/debug/x86
+native-lib
+jvmArgs : 
+
